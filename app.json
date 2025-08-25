@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Aprovou",
+    "slug": "social-media-approval",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fabricioraimondi.social-media-approval"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "211f84ee-f308-49c0-aacf-da814cccc034"
+      }
+    },
+    "owner": "fabricioraimondi",
+    "android": {
+      "package": "com.fabricioraimondi.socialmediaapproval"
+    }
+  }
+}
